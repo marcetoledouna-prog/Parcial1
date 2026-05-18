@@ -70,7 +70,7 @@ body {
 
     font-family: "Smythe", serif;
 
-    color: #092720;
+    color: #071f19;
 
     font-size: 2.8rem;
 
@@ -162,7 +162,7 @@ body {
 
     text-align: center;
 
-    color: #0c0f0f;
+    color: #063f41;
 
     font-size: 2rem;
 }
@@ -196,7 +196,7 @@ h3 {
 
     color: #1d3557;
 
-    border-left: 0.3rem solid #5b0a2f;
+    /*border-left: 0.3rem solid #5b0a2f; no me gusta como quedo*/
 
     padding-left: 0.6rem;
 }
@@ -260,7 +260,7 @@ article {
 
 /* VIDEO */
 
-.video-responsive {
+.video{
 
     position: relative;
 
@@ -273,21 +273,6 @@ article {
     overflow: hidden;
 
     margin-top: 1.25rem;
-}
-
-.video-responsive iframe {
-
-    position: absolute;
-
-    width: 100%;
-
-    height: 100%;
-
-    top: 0;
-
-    left: 0;
-
-    border: 0;
 }
 
 
@@ -336,4 +321,11 @@ article {
     font-style: normal;
 
     margin-top: 0.6rem;
+}
+
+.dos {
+    border-radius:2em;
+    transform: scale(2);
+    padding: 8rem     
+
 }
